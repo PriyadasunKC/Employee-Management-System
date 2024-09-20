@@ -1,0 +1,48 @@
+<div class="bg-gradient-to-br from-gray-200 to-gray-500 h-screen w-screen flex justify-center items-center">
+    <div class="container w-[90vw] h-[90vh] bg-white shadow-sm flex flex-row ">
+        <div class="w-[35vw] flex items-center justify-center flex-col gap-5">
+            <div class="flex flex-col items-center">
+                <div class="w-20 h-20"><img src="/logo.jpg" alt="" srcset=""></div>
+                <div class="text-3xl">Welcome!</div>
+            </div>
+
+            <div class="flex flex-col gap-4 w-[70%]">
+                <div class="flex flex-col gap-1">
+                    <div class="relative flex flex-col gap-2">
+                        <label for="Email">Email<span class="text-red-500">*</span></label>
+                        <input type="text" name="email" [(ngModel)]="email"
+                            class="text-sm p-2 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300 peer py-2 px-4   block w-full "
+                            required="" aria-describedby="hs-validation-name-error-helper">
+
+                    </div>
+                    <p class="text-sm text-red-600" id="hs-validation-name-error-helper">Please enter a valid
+                        email address.</p>
+
+                </div>
+                <div class="flex flex-col gap-1">
+
+                    <div class="relative flex flex-col gap-2">
+                        <label for="Password">Password<span class="text-red-500">*</span></label>
+                        <input type="password" id="hs-floating-input-passowrd-value" name="password"
+                            [(ngModel)]="password"
+                            class="text-sm p-2 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300 peer py-2 px-4  block w-full placeholder:text-transparent focus:border-blue-500 disabled:opacity-50 disabled:pointer-events-none ">
+
+                    </div>
+                    <p class="text-sm text-red-600" id="hs-validation-name-error-helper">Please enter a valid
+                        password.</p>
+                </div>
+                <div class="flex flex-row justify-between text-blue-400">
+                    <a [routerLink]="['/register']" routerLinkActive="router-link-active">Register</a>
+                    <a [routerLink]="['/forget-password']" routerLinkActive="router-link-active">Forget Password</a>
+                </div>
+                <button type="button" (click)="login()"
+                    class="py-2 px-4 w-100 text-md inline-flex items-center justify-center mt-2 font-medium rounded-lg border border-transparent bg-blue-500 text-white hover:bg-blue-400 focus:outline-none focus:bg-blue-400 disabled:opacity-50 disabled:pointer-events-none">
+                    Login
+                </button>
+
+            </div>
+        </div>
+        <div class="w-[65vw] relative"><img src="/logImg.png" class="w-full h-full md:block hidden" alt="" srcset="">
+        </div>
+    </div>
+</div>

@@ -5,8 +5,6 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{C0EDCF8B-CC31-4A80-81B1-28000F0411CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{C02D07F6-76C0-4DF2-9173-CE3B719DA8AB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseLibrary", "BaseLibrary\BaseLibrary.csproj", "{03A3A85F-27E8-485E-8A19-18B26980F969}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientLibrary", "ClientLibrary\ClientLibrary.csproj", "{C3F422AE-5F9C-4733-B1A1-65B3A41756E3}"
@@ -23,10 +21,6 @@ Global
 		{C0EDCF8B-CC31-4A80-81B1-28000F0411CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0EDCF8B-CC31-4A80-81B1-28000F0411CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0EDCF8B-CC31-4A80-81B1-28000F0411CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C02D07F6-76C0-4DF2-9173-CE3B719DA8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C02D07F6-76C0-4DF2-9173-CE3B719DA8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C02D07F6-76C0-4DF2-9173-CE3B719DA8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C02D07F6-76C0-4DF2-9173-CE3B719DA8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03A3A85F-27E8-485E-8A19-18B26980F969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03A3A85F-27E8-485E-8A19-18B26980F969}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A3A85F-27E8-485E-8A19-18B26980F969}.Release|Any CPU.ActiveCfg = Release|Any CPU
